@@ -1,6 +1,7 @@
 import React from "react";
 import { Input, DatePicker } from "antd";
 import moment from "moment";
+import "antd/dist/antd.css"; //Added afterwads because code sandbox style was not imorted.
 
 export default class InputWithLabel extends React.PureComponent {
   render() {

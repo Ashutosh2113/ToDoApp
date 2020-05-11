@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { Table, Space, Button } from "antd";
 import InputWithLabel from "../components/inputWithLabel";
 import ModelComponent from "../components/modelComponent";
+import "antd/dist/antd.css"; //Added afterwads because code sandbox style was not imorted.
 
 class Users extends React.Component {
   constructor() {

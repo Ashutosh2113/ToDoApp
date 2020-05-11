@@ -1,5 +1,6 @@
 import React from "react";
 import { Modal, Button } from "antd";
+import "antd/dist/antd.css"; //Added afterwads because code sandbox style was not imorted.
 
 export default class ModelComponent extends React.Component {
   constructor() {

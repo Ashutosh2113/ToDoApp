@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { Tabs } from "antd";
 import ToDos from "./todos/todos";
 import Users from "./users/users";
+import "antd/dist/antd.css"; //Added afterwads because code sandbox style was not imorted.
 
 const { TabPane } = Tabs;
 

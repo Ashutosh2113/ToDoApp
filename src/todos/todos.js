@@ -5,6 +5,7 @@ import { Table, Space, Modal, Button } from "antd";
 import InputWithLabel from "../components/inputWithLabel";
 import moment from "moment";
 import ModelComponent from "../components/modelComponent";
+import "antd/dist/antd.css"; //Added afterwads because code sandbox style was not imorted.
 
 class Users extends React.Component {
   constructor() {
